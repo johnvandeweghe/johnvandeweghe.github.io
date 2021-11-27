@@ -8,35 +8,56 @@ Husband, software engineer, tech nerd in Minneapolis, MN. He/him.
 
 
 ## About Me
-- Over 8 years of software engineering experience.
-- A wide breadth of experience across architecture, technical leadership, development, devops, security, and testing.
-- Enthusiastic, and eager to continually improve and gain new knowledge.
+- 9+ years of software engineering experience.
+- Experience with architecture, tech leadership, development, devops, and security.
+- Enthusiastic; committed to continuous improvement and gaining new knowledge.
 
-**Languages:** PHP 7 (Symfony/etc), Typescript/JS (browser/NodeJS), Java, Python, HTML/CSS
+**Clouds:** Amazon Web Services, Google Cloud Platform, Microsoft Azure
 
-**Tech:** AWS/GCP, Linux, REST/GraphQL APIs, messaging/queuing (SQS/SNS, PubSub, etc),   Redis, memcached, docker, MySQL/Postgres, NoSQL, nginx/Apache
+**Languages:** PHP 7/8, Typescript/JS (browser/NodeJS), Java, Python, Golang, HTML/CSS, Bash
 
-**Tools:** git, Ansible, Terraform, Kubernetes, Jenkins, CircleCI/Travis/Bitbucket Pipelines
+**Tech:** Linux (Ubuntu/CentOS/Alpine), REST/GraphQL APIs, messaging/queuing (SQS/SNS, PubSub, etc), Redis, memcached, docker, container orchestration (kubernetes, ECS), MySQL/Postgres, NoSQL, nginx/Apache
+
+**Logging/Monitoring:** Prometheus, Grafana, CloudWatch, Kibana/ES, New Relic, fluentd, Datadog
+
+**CI/CD:** GitHub Actions, CircleCI, Travis CI, Bitbucket Pipelines, Jenkins, Atlantis
+
+**Tools:** git, Ansible, Terraform, Helm
 
 ## Professional Experience
-**Senior Site Reliability Engineer** at SilverCloud Health - *Nov 2020 - Present*
+**Senior Operations Engineer** at RallyHealth (UHG) - *Aug 2021 - Present*
+
+**Senior Site Reliability Engineer** at SilverCloud Health - *Nov 2020 - August 2021*
+- Defined standards for the engineering team at large as the first platform hire.
+- Migrated the engineering and product teams to git from mercurial; managing training, providing one-on-one assistance, and then performing the technical migration. 
+- Established a culture of pull requests and code review for software and infra changes. 
+- Containerized the core monolithic application and made their first microservice possible, deployed to both EKS and AKS through GitHub Actions CI/CD pipelines.
+- Managed platform migration from bespoke provider to both AWS to Azure.
+- Changed process from manual infrastructure to infrastructure as code with Terraform.
+
 
 **Senior Software Engineer** at PinkLion AI - *Feb 2020 - Mar 2020*
 
-At PinkLion AI I architected, built, and tested a data pipeline leveraging messaging architecture with FaaSs. It was deployed using Terraform to move millions of documents through an AI pipeline in minutes, backing up all stages of the pipeline into a data warehouse. The pipeline piped the data into a RESTful API deployed to a Kubernetes cluster I deployed with Terraform. 
+- Architected and built a data pipeline leveraging messaging architecture with FaaSs. 
+- Pipeline functions and data stores were deployed using Terraform and were highly scalable - moved millions of documents through an AI pipeline in minutes
+- The pipeline piped the data into a RESTful API deployed to a Kubernetes cluster I also deployed with Terraform on GCP. 
+
 
 **Senior Software Engineer** at Kipsu Inc. - *Feb 2014 - Jan 2020*
 
-- Mentored engineers and guided leadership on development, devops, design, and security; presented stack, devops, and security topics to team to spread knowledge.
-- I designed a set of messaging architecture microservices that replaced core functionality.
-- Designed and built major core systems, leading development on many backend systems.
-- Maintained core systems, including through major language level changes across all parts of the software lifecycle; pushed for continuous improvement at all times.
-- Four separate times I lowered the primary DB utilization by 50% through redesigns, code improvements, and caching.
-- Started the security working group to focus efforts to help the growing organization stay secure. I discovered and reported code vulnerabilities, including many of a critical level. I designed the system used to rank and report vulnerabilities.
+- Leveraged Ansible to deploy infra and configure applications to our AWS cloud.
+- Migrated workloads to AWS from a legacy hosting provider.
+- Responded to incidents, triaged downtime, and monitored systems using CloudWatch.
+- Set up log streaming to ElasticSearch/Kibana to gain deeper application insights.
+- I designed a set of microservices that replaced core messaging functionality and deployed to ECS with Fargate using Ansible.
+- Four separate times I lowered the primary DB utilization by 50% through system profiling, targeted refactoring, code improvements, and caching mechanism.
+- Started the security working group to help the growing organization stay secure. I discovered and reported code vulnerabilities, including many of a critical - level. I designed the system used to rank, report and resolve vulnerabilities by impact.
+- Mentored engineers and guided leadership on development, devops, design, and security; presented stack, devops, and security topics to the team to spread knowledge.
+- Designed, built, deployed and monitored major core systems, leading development on many backend systems.
+- Maintained core systems, including major language level changes across all parts of the software lifecycle; pushed for continuous improvement at all times.
 
 **Freelance Web Developer** - *Mar 2012 - Jan 2014*
 
-- Web development for a variety of domestic and international clients. 
-- Projects varied from changes to ISP billing systems to building out an interactive previewing feature for a printing service, to scraping thousands of retail supplier data records for a retailer
+- Projects varied from changes to ISP billing systems to deploying and administering linux servers, to scraping thousands of retail supplier data records for a retailer
 
 **B.S. Computer Science** / Metropolitan State University - *2017*
