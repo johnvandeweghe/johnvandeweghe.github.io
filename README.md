@@ -1,4 +1,4 @@
-Husband, software engineer, tech nerd in Minneapolis, MN. He/him.
+Husband, father, software engineer, tech nerd in Minneapolis, MN. He/him.
 
 [<img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>][linkedin]
 [<img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>][github]
@@ -8,7 +8,7 @@ Husband, software engineer, tech nerd in Minneapolis, MN. He/him.
 
 
 ## About Me
-- 9+ years of software engineering experience.
+- 10+ years of software engineering experience.
 - Experience with architecture, tech leadership, development, devops, and security.
 - Enthusiastic; committed to continuous improvement and gaining new knowledge.
 
@@ -16,16 +16,21 @@ Husband, software engineer, tech nerd in Minneapolis, MN. He/him.
 
 **Languages:** PHP 7/8, Typescript/JS (browser/NodeJS), Java, Python, Golang, HTML/CSS, Bash
 
-**Tech:** Linux (Ubuntu/CentOS/Alpine), REST/GraphQL APIs, messaging/queuing (SQS/SNS, PubSub, etc), Redis, memcached, docker, container orchestration (kubernetes, ECS), MySQL/Postgres, NoSQL, nginx/Apache
+**Tech:** Linux (Ubuntu/CentOS/Alpine), REST/GraphQL APIs, messaging/queuing (SQS/SNS, PubSub, etc), Redis, memcached, docker, container orchestration (Kubernetes, ECS), MySQL/Postgres, NoSQL, nginx/Apache, fluentd
 
-**Logging/Monitoring:** Prometheus, Grafana, CloudWatch, Kibana/ES, New Relic, fluentd, Datadog
+**Logging/Monitoring:** Prometheus, Grafana, CloudWatch, Kibana/ES, New Relic, DataDog, Splunk 
 
-**CI/CD:** GitHub Actions, CircleCI, Travis CI, Bitbucket Pipelines, Jenkins, Atlantis
+**CI/CD:** ArgoCD, GitHub Actions, CircleCI, Travis CI, Bitbucket Pipelines, Atlantis, Jenkins
 
 **Tools:** git, Ansible, Terraform, Helm
 
 ## Professional Experience
-**Senior Operations Engineer** at RallyHealth (UHG) - *Aug 2021 - Present*
+**Senior Operations Engineer** at Optum - *Aug 2021 - Present*
+- Built, maintained, and improved high-scale Kubernetes cluster automation with dozens of clusters containing hundreds of nodes.
+- Completed 20+ migrations of high-scale, production clusters with no down time.
+- Provided design consultation, implementation assistance, and training on cloud solutions for dozens of development teams with hundreds of developers, and other operations focused teams, including the primary method for network crossing messaging traffic.
+- Coordinated change with dozens of stakeholders, including developers, security teams, other infrastructure teams.
+
 
 **Senior Site Reliability Engineer** at SilverCloud Health - *Nov 2020 - August 2021*
 - Defined standards for the engineering team at large as the first platform hire.
