@@ -25,7 +25,13 @@ Husband, father, software engineer, tech nerd in Minneapolis, MN. He/him.
 **Tools:** git, Ansible, Terraform, Helm
 
 ## Professional Experience
-**Senior Operations Engineer** at Optum - *Aug 2021 - Present*
+**Lead DevOps Engineer** at Ellipsis Health	- *Aug 2023 - Present*
+- Lead engineer focused on platform engineering in a high velocity startup environment.
+- Defined standards for the engineering team at large as the first platform hire.
+- Managed automation in a multi cloud environment.
+- Provided cloud architecture for engineering, including ML and Data teams.
+
+**Senior Platform Engineer** at Optum - *Aug 2021 - Aug 2023*
 - Built, maintained, and improved high-scale Kubernetes cluster automation with dozens of clusters containing hundreds of nodes.
 - Completed 20+ migrations of high-scale, production clusters with no down time.
 - Provided design consultation, implementation assistance, and training on cloud solutions for dozens of development teams with hundreds of developers, and other operations focused teams, including the primary method for network crossing messaging traffic.
