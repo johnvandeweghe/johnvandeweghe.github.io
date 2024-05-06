@@ -8,30 +8,44 @@ Husband, father, software engineer, tech nerd in Minneapolis, MN. He/him.
 
 
 ## About Me
-- 10+ years of software engineering experience.
-- Experience with architecture, tech leadership, development, devops, and security.
-- Enthusiastic; committed to continuous improvement and gaining new knowledge.
+- 12+ years of software engineering experience.
+- Multi discipline experience with architecture, tech leadership, development, devops, and security/compliance.
+- Enthusiastic; committed to continuous improvement and gaining new skills.
 
-**Clouds:** Amazon Web Services, Google Cloud Platform, Microsoft Azure
+**Clouds**: Amazon Web Services, Google Cloud Platform, Microsoft Azure
 
-**Languages:** PHP 7/8, Typescript/JS (browser/NodeJS), Java, Python, Golang, HTML/CSS, Bash
+**Skills:** DevOps, MLOps, DevSecOps, Platform Engineering, Software/Cloud Architecture
 
-**Tech:** Linux (Ubuntu/CentOS/Alpine), REST/GraphQL APIs, messaging/queuing (SQS/SNS, PubSub, etc), Redis, memcached, docker, container orchestration (Kubernetes, ECS), MySQL/Postgres, NoSQL, nginx/Apache, fluentd
+**Languages:** PHP, Typescript/JS, Java, Python, Go, HTML/CSS, Bash Scripting
 
-**Logging/Monitoring:** Prometheus, Grafana, CloudWatch, Kibana/ES, New Relic, DataDog, Splunk 
+**Monitoring:** Prometheus, OpenTelemetry, Grafana, CloudWatch, ELK, DataDog, many others
 
-**CI/CD:** ArgoCD, GitHub Actions, CircleCI, Travis CI, Bitbucket Pipelines, Atlantis, Jenkins
+**CI/CD Tools:** ArgoCD, GitHub Actions, GitLab CI/CD, Bitbucket Pipelines, Jenkins, many others
 
-**Tools:** git, Ansible, Terraform, Helm
+**Infra. Automation:** Ansible, Terraform, Cloud Build, Cloud Formation
+
+**Container orchestration:** Kubernetes (EKS, GKE, AKS), ECS/Fargate, Cloud Run, OpenShift
+
+**Compliance Frameworks/Regulations:** SOC2, HIPAA, HITRUST, GDPR
+ometheus, Grafana, CloudWatch, Kibana/ES, New Relic, DataDog, Splunk 
+
+
+## Certifications
+
+**Certified Kubernetes Administrator** / Linux Foundation - *April 2024*
+
 
 ## Professional Experience
 **Lead DevOps Engineer** at Ellipsis Health	- *Aug 2023 - Present*
-- Lead engineer focused on platform engineering in a high velocity startup environment.
-- Defined standards for the engineering team at large as the first platform hire.
-- Managed automation in a multi cloud environment.
-- Provided cloud architecture for engineering, including ML and Data teams.
+
+- Lead engineer focused on platform engineering in a high velocity startup environment in a high-regulation industry.
+- Led and built DevOps standards/culture for engineering (including product, ML and Data teams) as the first platform hire.
+- Provided cloud architecture in a multi cloud environment.
+- Platform and pipeline architecture for high throughput ML model delivery while managing high-cost GPU resources.
+
 
 **Senior Platform Engineer** at Optum - *Aug 2021 - Aug 2023*
+
 - Built, maintained, and improved high-scale Kubernetes cluster automation with dozens of clusters containing hundreds of nodes.
 - Completed 20+ migrations of high-scale, production clusters with no down time.
 - Provided design consultation, implementation assistance, and training on cloud solutions for dozens of development teams with hundreds of developers, and other operations focused teams, including the primary method for network crossing messaging traffic.
@@ -39,6 +53,7 @@ Husband, father, software engineer, tech nerd in Minneapolis, MN. He/him.
 
 
 **Senior Site Reliability Engineer** at SilverCloud Health - *Nov 2020 - August 2021*
+
 - Defined standards for the engineering team at large as the first platform hire.
 - Migrated the engineering and product teams to git from mercurial; managing training, providing one-on-one assistance, and then performing the technical migration. 
 - Established a culture of pull requests and code review for software and infra changes. 
