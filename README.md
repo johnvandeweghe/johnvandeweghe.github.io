@@ -1,5 +1,7 @@
 Husband, father, software engineer, tech nerd in Minneapolis, MN. He/him.
 
+Interested in my experience and looking for some of my time? I am available for advisory and project based contracts through [CirrusNorth](https://www.cirrusnorth.io/contact).
+
 [<img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>][linkedin]
 [<img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>][github]
 
@@ -36,6 +38,10 @@ ometheus, Grafana, CloudWatch, Kibana/ES, New Relic, DataDog, Splunk
 
 
 ## Professional Experience
+**DevOps Consultant** at Vandeweghe Consulting via [CirrusNorth](https://cirrusnorth.io)	- *Jan 2024 - Present*
+
+Software consultant through the CirrusNorth agency focused on cloud an DevOps projects in all three major clouds.
+
 **Lead DevOps Engineer** at Ellipsis Health	- *Aug 2023 - Present*
 
 - Lead engineer focused on platform engineering in a high velocity startup environment in a high-regulation industry.
