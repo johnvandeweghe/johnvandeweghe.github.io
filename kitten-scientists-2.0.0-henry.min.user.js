@@ -1975,8 +1975,7 @@ var __privateWrapper = (obj, member, setter, getter) => ({
     autoGather() {
       const controller = new classes.game.ui.GatherCatnipButtonController(this._host.game);
       for (let clicks = 0; clicks < Math.floor(this._host.engine.settings.interval / 20); ++clicks) {
-        controller.buyItem(null, null, () => {
-        });
+        controller.buyItem(null, null);
       }
     }
     build(name, stage, amount) {
@@ -2147,7 +2146,7 @@ var __privateWrapper = (obj, member, setter, getter) => ({
         await this._autoSacrificeAlicorns(context);
       }
       if (this.settings.refineTears.enabled) {
-        await this._autoTears(context);
+        this._autoTears(context);
       }
       if (this.settings.refineTimeCrystals.enabled) {
         await this._autoTCs(context);
@@ -2496,7 +2495,7 @@ var __privateWrapper = (obj, member, setter, getter) => ({
         );
       }
     }
-    async _autoTears(context) {
+    _autoTears(context) {
       const tears = this._workshopManager.getResource("tears");
       const available = this._workshopManager.getValueAvailable("tears");
       const sorrow = this._workshopManager.getResource("sorrow");
@@ -2511,9 +2510,7 @@ var __privateWrapper = (obj, member, setter, getter) => ({
           context.requestGameUiRefresh = true;
           return;
         }
-        await new Promise((resolve) => {
-          controller.buyItem(model, new Event("decoy"), resolve, availableForConversion);
-        });
+        controller.buyItem(model, new Event("decoy"), availableForConversion);
         const availableNow = this._workshopManager.getValueAvailable("tears");
         const cost = available - availableNow;
         this._host.engine.iactivity(
@@ -2665,7 +2662,12 @@ var __privateWrapper = (obj, member, setter, getter) => ({
       this._host.game.opts.noConfirm = true;
       const success = await UpgradeManager.skipConfirm(
         () => new Promise((resolve) => {
-          controller.buyItem(button2.model, new MouseEvent("click"), resolve);
+          const buyResult = controller.buyItem(button2.model, new MouseEvent("click"));
+          if (buyResult.def !== void 0) {
+            buyResult.def.then(resolve);
+          } else {
+            resolve(buyResult.itemBought);
+          }
         })
       );
       if (!success) {
