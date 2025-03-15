@@ -2701,10 +2701,7 @@ var __privateWrapper = (obj, member, setter, getter) => ({
       } else if (variant === "science") {
         buttons = this.manager.tab.buttons;
       }
-      return (buttons == null ? void 0 : buttons.find((button2) => {
-        var _a;
-        return ((_a = button2.model) == null ? void 0 : _a.options.name) === upgrade.label;
-      })) ?? null;
+      return (buttons == null ? void 0 : buttons.find((button2) => button2.id === upgrade.name)) ?? null;
     }
   }
   const sleep = (duration) => {
