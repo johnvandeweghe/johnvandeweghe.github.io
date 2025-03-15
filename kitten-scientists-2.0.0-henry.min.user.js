@@ -4144,14 +4144,18 @@ var __privateWrapper = (obj, member, setter, getter) => ({
       let fixHappened;
       do {
         fixHappened = false;
-        btn.controller.buyItem(
+        const buyResult = btn.controller.buyItem(
           btn.model,
-          new MouseEvent("click"),
-          (didHappen) => {
-            fixHappened = didHappen;
-            fixed += didHappen ? 1 : 0;
-          }
+          new MouseEvent("click")
         );
+        if (buyResult.def !== void 0) {
+          buyResult.def.then((didHappen) => {
+            fixHappened = didHappen.itemBought;
+            fixed += didHappen ? 1 : 0;
+          });
+        } else {
+          fixHappened = buyResult.itemBought;
+        }
       } while (fixHappened);
       if (0 < fixed) {
         this._host.engine.iactivity("act.fix.cry", [this._host.renderAbsolute(fixed)], "ks-fixCry");
