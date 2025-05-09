@@ -29,7 +29,6 @@ Interested in my experience and looking for some of my time? I am available for 
 **Container orchestration:** Kubernetes (EKS, GKE, AKS), ECS/Fargate, Cloud Run, OpenShift
 
 **Compliance Frameworks/Regulations:** SOC2, HIPAA, HITRUST, GDPR
-ometheus, Grafana, CloudWatch, Kibana/ES, New Relic, DataDog, Splunk 
 
 
 ## Certifications
@@ -38,11 +37,11 @@ ometheus, Grafana, CloudWatch, Kibana/ES, New Relic, DataDog, Splunk
 
 
 ## Professional Experience
-**DevOps Consultant** at Vandeweghe Consulting via [CirrusNorth](https://cirrusnorth.io)	- *Jan 2024 - Present*
+**Lead Consultant** at [CirrusNorth](https://cirrusnorth.io)	- *Jan 2024 - Present*
 
 Software consultant through the CirrusNorth agency focused on cloud an DevOps projects in all three major clouds.
 
-**Lead DevOps Engineer** at Ellipsis Health	- *Aug 2023 - Present*
+**Lead DevOps Engineer** at Ellipsis Health	- *Aug 2023 - Apr 2025*
 
 - Lead engineer focused on platform engineering in a high velocity startup environment in a high-regulation industry.
 - Led and built DevOps standards/culture for engineering (including product, ML and Data teams) as the first platform hire.
@@ -91,5 +90,7 @@ Software consultant through the CirrusNorth agency focused on cloud an DevOps pr
 **Freelance Web Developer** - *Mar 2012 - Jan 2014*
 
 - Projects varied from changes to ISP billing systems to deploying and administering linux servers, to scraping thousands of retail supplier data records for a retailer
+
+## Education
 
 **B.S. Computer Science** / Metropolitan State University - *2017*
